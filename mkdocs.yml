@@ -1,4 +1,10 @@
-site_name: My Docs
+site_name: Smart Farming
+site_url: https://keepsimpler.github.io/smartfarming/
+sit_author: Wenfeng Feng
 
 theme:
   name: material
+
+# Page tree
+nav:
+  - Home: index.md
