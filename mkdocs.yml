@@ -4,7 +4,29 @@ sit_author: Wenfeng Feng
 
 theme:
   name: material
+  features:
+    # - toc.integrate
+    - navigation.indexes
 
 # Page tree
 nav:
-  - Home: index.md
+  # - Content: index.md
+  - Introduction: introduction.md
+  - Disease identification:
+    - disease/index.md
+    - Explore PlantVillage: disease/explore-plantvillage.md
+
+
+extra_css:
+  - stylesheets/extra.css
+
+
+markdown_extensions:
+  - tables
+  - attr_list
+  - md_in_html
+  - pymdownx.superfences:
+      custom_fences:
+        - name: mermaid
+          class: mermaid
+          format: !!python/name:pymdownx.superfences.fence_code_format
