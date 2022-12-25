@@ -10,11 +10,11 @@ theme:
 
 # Page tree
 nav:
-  # - Content: index.md
+  - Content: index.md
   - Introduction: introduction.md
   - Disease identification:
     - disease/index.md
-    - Explore PlantVillage: disease/explore-plantvillage.md
+    - Disease classification on PlantVillage: disease/classification-on-plantvillage.md
 
 
 extra_css:
