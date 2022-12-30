@@ -7,7 +7,7 @@ Below are two images, one is classified as apple leaf with scab and the other fu
 
 |Image classification|Object detection|
 |:-:|:-:|
-|![Image classification](../images/classification-apple-scab-5366820.jpg)|![Object detection](../images/detection-apple-scab-5366820.jpg)|
+|![Image classification](../assets/images/classification-apple-scab-5366820.jpg)|![Object detection](../assets/images/detection-apple-scab-5366820.jpg)|
 
 Plant disease identification can be done using a variety of machine learning technologies, one of which is deep learning. Deep learning is a type of machine learning that involves training artificial neural networks on large datasets to recognize patterns and make precisions. It can be applied to a wide range of tasks, including image classification, object detection, natural language processing, and much more.
 
@@ -42,12 +42,22 @@ Once we have collected and labeled a dataset, or acquired a public dataset as ab
 
 There are many different deep learning models that can be used for plant disease classification and detection, and the best choice will depend on  a number of factors, such as the size and complexity of the dataset, the specific disease being detected, and the desired performance and speed. Some popular deep learning models that have been used for plant disease classification and detection include:
 
-- Convolutional neural networks (CNNs): CNNs are a type of feed-forward neural network that is commonly used for image classification and object detection tasks. They are composed of multiply layers of interconnected neurons, and they use convolutional operations to extract features for input images.
+`Convolutional neural networks (CNNs)`
 
-- Region-based CNNs (R-CNNs): R-CNNs are a type of CNN that is designed for object detection tasks. They use a combination of a CNN and a region proposal algorithm to identify regions of the image that are likely to contain objects, and they use the CNN to classify the objects and predict their bounding boxes.
+: CNNs are a type of feed-forward neural network that is commonly used for image classification and object detection tasks. They are composed of multiply layers of interconnected neurons, and they use convolutional operations to extract features for input images.
 
-- You Only Look Once (YOLO): YOLO is a real-time object detection system that uses a single CNN to predict the bounding boxes and class labels of objects in an image. It achieves this by handling object detection as a regression problem rather than a classification problem. YOLO is known for its high speed and good performance on a variety of object detection tasks. YOLOV7 and YOLOV5 are two state-of-the-art implements till now.
+`Region-based CNNs (R-CNNs)`
 
-- Single Shot Multibox Detector (SSD): Similar to YOLO, SSD also use a single CNN to predict the bounding boxes and class labels of object in an image. The feature that sets it apart from YOLO is its approach to bounding-box regression.
+: R-CNNs are a type of CNN that is designed for object detection tasks. They use a combination of a CNN and a region proposal algorithm to identify regions of the image that are likely to contain objects, and they use the CNN to classify the objects and predict their bounding boxes.
 
-- Transformer-based Detection: In transformer-based object detection models, transformers are typically used in conjunction with a CNN to process the images. The CNN is used to extract features from the images, and the transformer is then used to process the features and perform the object detection via s bipartite matching training objective. Detection Transformer (DETR) is a state-of-the-art implementation till now.
+`You Only Look Once (YOLO)`
+
+: YOLO is a real-time object detection system that uses a single CNN to predict the bounding boxes and class labels of objects in an image. It achieves this by handling object detection as a regression problem rather than a classification problem. YOLO is known for its high speed and good performance on a variety of object detection tasks. YOLOV7 and YOLOV5 are two state-of-the-art implements till now.
+
+`Single Shot Multibox Detector (SSD)`
+
+: Similar to YOLO, SSD also use a single CNN to predict the bounding boxes and class labels of object in an image. The feature that sets it apart from YOLO is its approach to bounding-box regression.
+
+`Transformer-based Detection`
+
+: In transformer-based object detection models, transformers are typically used in conjunction with a CNN to process the images. The CNN is used to extract features from the images, and the transformer is then used to process the features and perform the object detection via s bipartite matching training objective. Detection Transformer (DETR) is a state-of-the-art implementation till now.

@@ -1,27 +1,33 @@
 site_name: Smart Farming
 site_url: https://keepsimpler.github.io/smartfarming/
-sit_author: Wenfeng Feng
+site_author: Wenfeng Feng
 
 theme:
   name: material
+  custom_dir: overrides
   features:
-    # - toc.integrate
-    - navigation.indexes
+    - toc.integrate
+    # - navigation.indexes
 
 # Page tree
 nav:
-  - Content: index.md
+  - Home: index.md
   - Introduction: introduction.md
   - Disease identification:
-    - disease/index.md
-    - Disease classification on PlantVillage: disease/classification-on-plantvillage.md
-
+    - Introduction: disease/index.md
+    - Disease classification on PlantVillage: disease/classification-on-plantvillage-2.ipynb
 
 extra_css:
   - stylesheets/extra.css
 
+plugins:
+  - mknotebooks:
+      execute: false
+      # enable_default_jupyter_cell_styling: false
+      # enable_default_pandas_dataframe_styling: false      
 
 markdown_extensions:
+  - def_list
   - tables
   - attr_list
   - md_in_html

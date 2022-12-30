@@ -13,7 +13,7 @@ In smart farming systems, sensors, robots, drones and other devices are used to 
 
 For example, an smart farming system might use data about soil moisture levels and weather forecasts to recommend the optimal amount of irrigation for a particular field. It might also use data about crop health to identify potential diseases, pests or weeds and recommend appropriate treatments.
 
-Overall, smart farming aims to improve the efficiency and sustainability of agriculture by using data and advances technologies to make more informed, data-driven decisions about crop production and resource management.
+Overall, smart farming aims to improve the efficiency and sustainability of agriculture by using data and advances technologies to make more informed, data-driven decisions about crop production and resource management. The data about various aspects of the farm are collected through sensors, robots,drones and other devices, and are then analyzed using various machining learning algorithms. The results are used to predict crop yield or soil condition, or identify diseases, pests and weeds.
 
 ``` mermaid
 graph LR
