@@ -7,7 +7,8 @@ theme:
   custom_dir: overrides
   features:
     - toc.integrate
-    # - navigation.indexes
+    - navigation.tabs
+  favicon: assets/favicon.png
 
 # Page tree
 nav:
@@ -16,6 +17,7 @@ nav:
   - Disease identification:
     - Introduction: disease/index.md
     - Disease classification on PlantVillage: disease/classification-on-plantvillage-2.ipynb
+    - Disease detection on PlandDoc: disease/detection-on-plantdoc.ipynb
 
 extra_css:
   - stylesheets/extra.css
