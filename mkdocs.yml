@@ -18,6 +18,7 @@ nav:
     - Introduction: disease/index.md
     - Disease classification on PlantVillage: disease/classification-on-plantvillage-2.ipynb
     - Disease detection on PlandDoc: disease/detection-on-plantdoc.ipynb
+    - Deploy disease detection to ROS2: disease/yolov7-plantdoc-ros2.ipynb
 
 extra_css:
   - stylesheets/extra.css
